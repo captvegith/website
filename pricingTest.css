@@ -36,7 +36,7 @@
   
   /* style boxes choix des offres + choix nbre plantes */ 
   .choice-boxes, .choice-plants {
-      width: 68vh;
+      width: 550px;
       font-family: 'Work Sans', sans-serif;
       padding-top: 25px;
       padding-bottom: 25px;
@@ -116,7 +116,7 @@
   
   /* style box nombres */ 
   .total-numbers {
-    width: 63vh;
+    width: 550px;
       padding-left: 40px;
       padding-top: 20px;     
       font-family: 'Work Sans', sans-serif;
@@ -156,7 +156,7 @@
   
   /* style du formulaire de contact */ 
   .contact-form {
-      max-width: 128vh;
+      max-width: 1120px;
       padding: 40px;
       background-color: white;
       border-radius: 20px;

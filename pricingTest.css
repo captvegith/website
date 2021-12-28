@@ -364,6 +364,7 @@ input[type="text"]:active {
       .choice-row {
           display: flex;
           flex-direction: row;
+          margin-bottom: 30px;
       }
     
     .buttonsOffer {

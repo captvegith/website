@@ -366,7 +366,7 @@ input[type="text"]:active {
       .choice-row {
           display: flex;
           flex-direction: row;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
       }
     
     .buttonsOffer {
@@ -382,10 +382,10 @@ input[type="text"]:active {
       
       /* style boxes choix des offres + choix nbre plantes */ 
       .choice-boxes, .choice-plants {
-          width: 330px;
+          width: 48%;
           font-family: 'Work Sans', sans-serif;
-          padding: 20px;
-          margin-right: 20px;
+          padding: 12px;
+          margin-right: 15px;
           border-radius: 20px;
           background-color: white;
           box-shadow: 1px 1px 8px 0 #ebecf0;
@@ -395,7 +395,6 @@ input[type="text"]:active {
       .infoRow {
           display: flex;
           flex-direction: row;
-          margin-right: 20px;
       }
       
       .choice-boxes h3, .choice-plants h3 {
@@ -415,11 +414,23 @@ input[type="text"]:active {
       
       /* choix nbre de plantes */
       .choice-plants .inputUPots {
-          border: none;
+        border: none;
         background: transparent;
-          font-size: 13px;
+        font-size: 13px;
         font-family: 'Work Sans', sans-serif;
-        width: 20px;
+        width: 25px;
+        margin-right: 10px; 
+        padding-bottom: 7px; 
+      }
+
+      .choice-plants h3 {
+          padding-left: 5px;
+          font-family: 'Work Sans', sans-serif;
+          margin-bottom: 40px;
+          font-size: 12px;
+          font-weight: 800;
+          height: 32px;
+          color: #426a5a;
       }
       
       .choice-plants .plantsRow {
@@ -430,7 +441,7 @@ input[type="text"]:active {
           font-size: 12px;
         font-family: 'Work Sans', sans-serif;
         font-weight: normal;
-          margin-right: 10px;
+          margin-right: 5px;
       }
       
       .choice-plants .inputQty {
@@ -447,7 +458,6 @@ input[type="text"]:active {
           font-weight: 800;
           color: #426a5a;
           font-size: 13px;
-          margin-top: 5px;
           margin-bottom: 5px;
       }
       
@@ -456,14 +466,14 @@ input[type="text"]:active {
       }
 
       .choixPlantes {
-        padding-left: 5px;
+        padding-left: 2px;
       }
       
       
       
       /* style box nombres */ 
       .total-numbers {
-          width: 280px;
+          width: 48%;
           padding-left : 20px;
           padding-top: 30px;
           padding-right: 65px;
@@ -503,7 +513,7 @@ input[type="text"]:active {
       
       /* style du formulaire de contact */ 
       .contact-form {
-        width: 630px;
+        width: 640px;
           padding : 30px;
           background-color: white;
           border-radius: 20px;
@@ -637,8 +647,8 @@ input[type="text"]:active {
        display: inline-block; }
       
       .quantity .input-text.qty {
-       width: 12px;
-       height: 34px;
+       width: 25px;
+       height: 30px;
        padding: 0 5px;
        font-size: 12px;
        font-family: 'Work Sans', sans-serif;
@@ -662,8 +672,8 @@ input[type="text"]:active {
       
       .quantity.buttons_added .minus,
       .quantity.buttons_added .plus {
-       padding: 5px 8px 6px;
-       height: 36px;
+       padding: 2px 5px 10px;
+       height: 30px;
        background-color: #ffffff;
        border: 1px solid #efefef;
        cursor:pointer;}

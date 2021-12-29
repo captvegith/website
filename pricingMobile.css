@@ -1,0 +1,337 @@
+/* Version mobile max width 800px */ 
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    #wrap{
+        font-family:'Open Sans', sans-serif;
+          padding-bottom: 100px;
+          padding-top: 20px;
+          background-color: #416a5a;
+          padding-left: 5%;
+          padding-right: 5%;
+      }
+
+      #theForm {
+        display: block;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+      .choice-row {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      #pricingPlantes {
+          font-family:'Open Sans', sans-serif;
+          justify-content: space-between;
+      }
+      
+      
+      /* style boxes choix des offres + choix nbre plantes */ 
+      .choice-boxes, .choice-plants {
+          width: 41vh;
+          font-family: 'Work Sans', sans-serif;
+          padding: 5%;
+          border-radius: 20px;
+          background-color: white;
+          box-shadow: 1px 1px 8px 0 #ebecf0;
+          justify-content: center;
+      }
+
+      .buttonsOffer {
+          display:flex;
+          flex-direction: column;
+      }
+
+      .infoRow {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .choice-boxes h3, .choice-plants h3 {
+          padding-left: 5px;
+          font-family: 'Work Sans', sans-serif;
+          margin-bottom: 20px;
+          font-size: 11px;
+          font-weight: 600;
+          color: #426a5a;
+      }
+      
+      .choice-boxes:hover, .choice-plants:hover {
+          transform: translateY(-6px);
+          transition: all 0.5s;
+      }
+      
+      /* choix nbre de plantes */
+      .choice-plants .inputUPots {
+        border: none;
+        background: transparent;
+        font-size: 12px;
+        font-family: 'Work Sans', sans-serif;
+        width: 18px;
+        margin-right: 4px;
+      }
+
+      .choixPlantes {
+        padding-left: 1px;
+      }
+      
+      .choice-plants .plantsRow {
+          display:flex; flex-direction: row;align-items: center;
+      }
+      
+      .choice-plants label {
+          font-size: 10px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: normal;
+          margin-right: 4px;
+      }
+      
+      /* .choice-plants .inputQty {
+          border: 1px solid #E5E6E5;
+          border-radius: 5px;
+          font-family: 'Work Sans', sans-serif;
+          font-size: 15px;
+          height: 28px;
+          width: 4px;
+      } */
+      
+      .choice-plants h5 {
+          font-family: 'Work Sans', sans-serif;
+          font-weight: 800;
+          color: #426a5a;
+          font-size: 11px;
+          margin-top: 10px;
+          margin-bottom: 5px;
+      }
+      
+      .choice-plants .inputRow {
+          display:flex; flex-direction: row; align-items: center;
+      }
+      
+      
+      /* style box nombres */ 
+      .total-numbers {
+        width: 39vh;
+        padding: 20px 20px;
+          margin-top: 20px;
+          font-family: 'Work Sans', sans-serif;
+          background-color: white;
+          border-radius: 20px;
+          box-shadow: 1px 1px 5px 0 #ebecf0;    
+      }
+      
+      .total-numbers input {
+        height: 18px;	
+        width: 60px;
+        font-size: 14px;
+        border: none;
+        background: transparent;
+        padding-bottom: 3px;
+        font-family: 'Work Sans', sans-serif;
+      }
+      
+      .total-numbers label {
+          font-family: 'Work Sans', sans-serif;
+          font-weight: 800;
+          color: #426a5a;
+          font-size: 11px;
+          margin-right: 5px;
+          margin-bottom: 15px;
+      }
+      
+      .total-numbers:hover {
+          transform: translateY(-6px);
+          transition: all 0.5s;
+      }
+
+      .divTotalTypes {
+        display: flex; align-items: center; flex-direction: row;margin-bottom: 10px;
+      }
+      
+      /* style du formulaire de contact */ 
+      .contact-form {
+        width: 41vh;
+          padding : 5%;
+          background-color: white;
+          border-radius: 20px;
+          box-shadow: 1px 1px 5px 0 #ebecf0;
+          margin-top: 20px;
+      }
+      
+      .contact-form:hover {
+          transform: translateY(-6px);
+          transition: all 0.5s;
+      }
+
+      .contact-form label {
+        font-size: 11px;
+        font-weight: normal; 
+        font-family: 'Work Sans'; 
+        color: #416a5a; 
+        margin-bottom: 2px !important;
+      }
+      
+      
+      .contact-form h3 {
+          font-family: 'Work Sans', sans-serif;
+          margin-bottom: 10px;
+          font-size: 12px;
+          font-weight: 600;
+          height: 32px;
+          color: #426a5a;
+          text-transform: uppercase;
+      }
+
+      .contactColumns {
+        display: flex;flex-direction: column; width: 45%; line-height: 20px; margin-right: 20px;
+      }
+
+      /* style label des boutons radios offre & Pots */ 
+      
+      #wrap label.radiolabelOffer, #wrap label.radiolabelPots
+          {
+              cursor: pointer;
+              font-family: 'Work Sans',sans-serif;
+              display:inline;
+              margin-left: 30px;
+              margin-right: 30px;
+              border: 1px solid #416a5a;
+              padding-right: 17px;
+              padding-top: 9px;
+              padding-left: 17px;
+              background-color: white;
+              color: #416a5a;
+              padding-bottom: 9px;
+              align-items: center;
+              border-radius: 20px;
+              box-sizing: border-box;    
+              font-weight: 600;
+              font-size: 10px;
+              display: flex;
+              justify-content: center;
+              line-height: 12px;
+              height: 35px;
+              position: relative;
+              text-align: center;
+              text-decoration: none;
+              user-select: none;
+              -webkit-user-select: none;
+          }  
+      
+          #wrap .button-56 {
+              margin-top: 30px;
+              background-color: #eca72c;
+              font-family: 'Work Sans', sans-serif;
+              font-weight: 600;
+              font-size: 12px;
+              padding-top: 10px;
+              padding-left: 15px;
+              padding-bottom: 10px;
+              padding-right: 15px;
+              border-radius: 10px;
+              color: white;
+              border: none;
+              cursor: pointer;
+              width: 80%;
+          }
+      
+       /* style inputs offres et pots */  
+        input[type="radio"] {
+          visibility: hidden;
+      }
+      
+        #wrap input[type="radio"]:checked+label {
+          background-color: #63cf99; 
+          color: white;
+          }  
+      
+      
+         input[type="text"] {
+                  border: 1px solid #E5E6E5;
+                  font-family: 'Open Sans', sans-serif;
+                  height: 23px;
+                  font-size: 10px;
+                  border-radius: 6px;
+              }	
+          
+          #wrap input[type="text"]:focus {
+              outline:none !important;
+              border-bottom: 2px solid #63cf99;
+              color: #63cf99;
+          }	
+      
+      
+      #wrap div#totalPrice
+      {
+          font-weight:bold;
+      }
+      
+      
+      /* CSS submit button */
+      .button-56:active {
+        background-color: #ffdeda;
+        outline: 0;
+      }
+      
+      .button-56:hover {
+        outline: 0;
+      }
+      
+      /* -- quantity box -- */
+      
+      .quantity {
+       display: inline-block; }
+      
+      .quantity .input-text.qty {
+       width: 8px;
+       height: 20px;
+       padding: 0 5px;
+       font-size: 9px;
+       font-family: 'Work Sans', sans-serif;
+       text-align: center;
+       background-color: transparent;
+       border: 1px solid #efefef;
+      }
+      
+      .quantity.buttons_added {
+       text-align: left;
+       position: relative;
+       white-space: nowrap;
+       vertical-align: top; }
+      
+      .quantity.buttons_added input {
+       display: inline-block;
+       margin: 0;
+       vertical-align: top;
+       box-shadow: none;
+      }
+      
+      .quantity.buttons_added .minus,
+      .quantity.buttons_added .plus {
+       padding: 0 4px;
+       height: 22px;
+       background-color: #ffffff;
+       border: 1px solid #efefef;
+       cursor:pointer;}
+      
+      .quantity.buttons_added .minus {
+       border-right: 0; }
+      
+      .quantity.buttons_added .plus {
+       border-left: 0; }
+      
+      .quantity.buttons_added .minus:hover,
+      .quantity.buttons_added .plus:hover {
+       background: #eeeeee; }
+      
+      .quantity input::-webkit-outer-spin-button,
+      .quantity input::-webkit-inner-spin-button {
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       margin: 0; }
+       
+       .quantity.buttons_added .minus:focus,
+      .quantity.buttons_added .plus:focus {
+       outline: none; }
+
+}

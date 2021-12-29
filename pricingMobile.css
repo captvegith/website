@@ -1,6 +1,5 @@
 /* Version mobile max width 800px */ 
-@media screen and (min-width: 200px) and (max-width: 640px) {
-    #wrap{
+#wrap{
         font-family:'Open Sans', sans-serif;
           padding-bottom: 100px;
           padding-top: 20px;
@@ -333,5 +332,3 @@
        .quantity.buttons_added .minus:focus,
       .quantity.buttons_added .plus:focus {
        outline: none; }
-
-}

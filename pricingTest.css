@@ -585,6 +585,7 @@ input[type="text"]:active {
           }  
       
           #wrap .button-56 {
+              width: 50%; 
               margin-top: 40px;
               background-color: #eca72c;
               font-family: 'Work Sans', sans-serif;

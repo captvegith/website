@@ -499,6 +499,7 @@ input[type="text"]:active {
           color: #426a5a;
           font-size: 13px;
           margin-right: 5px;
+          line-height: 12px;
       }
       
       .total-numbers:hover {

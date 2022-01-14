@@ -33,7 +33,7 @@ function afterSubmit(e) {
     .catch(err => {
         console.log(err);
         contactForm.reset();
-        console.log('something went wrongeee');
+        console.log('something went wrong ....');
     });
 };
 

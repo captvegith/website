@@ -13,7 +13,7 @@ function afterSubmit(e) {
         name : firstName.value,
         companyName : companyName.value,
         telephone : phoneNumber.value,
-        emailAdress : email.value
+        email : email.value
     };
 
     var url = "https://script.google.com/macros/s/AKfycbxfNvhj1owoM-3A6aH6NBYoouVW3wyS3QQRaNlJGezTvYNflrE/exec";

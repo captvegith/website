@@ -5,7 +5,7 @@
 <title>Pricing Tool Capt Veg</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/captvegith/website/pricingTest.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/captvegith/website@36591736685904c90fce226cd01ac61d873b14d0/pricingTest.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600;800&display=swap" rel="stylesheet">
@@ -16,13 +16,13 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     $(document).ready(function(){
        
        $('#content').load("https://cdn.jsdelivr.net/gh/captvegith/website/formulaire/formulaireCaptVeg.html");
     
  });
-</script>
+</script> -->
 
 </head>
 <body>
@@ -130,24 +130,24 @@
             </div>
         </form>
         	        <div class="contact-form">
-                        <h3> Etape 4 - On se contacte :) !</h3>
+                        <h3> Etape 4 - On se contacte !</h3>
                         <div class="formInputs" style="display: flex; flex-direction:row;">
-                            <form>
+                            <form id="contactForm">
                             <div class="contactColumns">
                                 <label for='name'>Nom : </label>
-                                <input type="text" id="name" name='name'/>
+                                <input type="text" id="firstName" name='name'/>
                             <br/>
                                 <label for='company'>Nom Entreprise : </label>
-                                <input type="text" class="no-outline" name='company'/>
-                                <button class="button-56" type="submit" role="button"> Envoyer </button>
+                                <input type="text" class="no-outline" name='company' id="companyName"/>
+                                <button class="button-56" id="submitButton" type="submit" role="button"> Envoyer </button>
                             </div>
                             <br/>
                             <div class="contactColumns">
                                 <label for='email'>Email : </label>
-                                <input type="text" name='email'/>
+                                <input type="text" name='email' id="email"/>
                             <br/>
                                 <label for='phonenumber'>Téléphone : </label>
-                                <input type="text"  id="phonenumber" name='phonenumber'/>
+                                <input type="text"  id="phoneNumber" name='phonenumber'/>
                             </div>
                          </div>
                         </form>
@@ -157,7 +157,7 @@
 	</div>
 	    <div id="content"></div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/gh/captvegith/website@af20fd1f079538974504bd32ee76cc384ae19f61/formulaire/formulaireCV.js"></script>
 <script>
     $('.add').click(function () {
 		if ($(this).prev().val() < 3000) {

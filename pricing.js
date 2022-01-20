@@ -1,5 +1,5 @@
     // référencement du formulaire dans notre code Js 
-    var theForm = document.forms["pricingPlantesMobile"]; 
+    var theForm = document.forms["pricingPlantes"]; 
 
     // Variables prix plantesU
     var babyPlantePriceU = new Array();

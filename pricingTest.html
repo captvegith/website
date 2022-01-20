@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Pricing Tool Capt Veg</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/captvegith/website@36591736685904c90fce226cd01ac61d873b14d0/pricingTest.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/captvegith/website@2bc6a40cd35b38fb2b99a6def69fad4175711cd1/pricingTest.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/captvegith/website/pricing.js"></script>	
+<!-- <script src="https://cdn.jsdelivr.net/gh/captvegith/website/pricing.js"></script>	 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/gh/captvegith/website/formulaire.js" defer></script> -->
 <!-- <script src="newPricing.js"></script> -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -30,22 +30,22 @@
         <!--id du formulaire  = pricingPlantes-->
         <div id="theForm">
         <form action="" id="pricingPlantes" onsubmit="return false;">
-                <div class="left-boxes">
+                <div>
                     <div class="choice-row">
                     <div class="choice-boxes">
                         <h3> ETAPE 1 - CHOISISSEZ VOTRE OFFRE : </h3>
                         <div class="buttonsOffer" style="margin-top: 10px;">  
-                            <input type="radio"  id="offerAchat" name="selectedOffer" value="Achat" onclick="plantesPriceT()"><label for="offerAchat" class='radiolabelOffer'>ACHAT</label>
-                            <input type="radio"  id="offerAchatEntretien" name="selectedOffer" value="AchatEtEntretien" onclick="plantesPriceT()"><label for="offerAchatEntretien" class='radiolabelOffer'>ACHAT + ENTRETIEN</label>
-                            <input type="radio"  id="offerLocation" name="selectedOffer" value="Location" onclick="plantesPriceT()"><label for="offerLocation" class='radiolabelOffer'>LOCATION</label><br/>
+                            <input type="radio"  id="offerAchat" name="selectedOffer" value="Achat" onclick=""><label for="offerAchat" class='radiolabelOffer'>ACHAT</label>
+                            <input type="radio"  id="offerAchatEntretien" name="selectedOffer" value="AchatEtEntretien" onclick=""><label for="offerAchatEntretien" class='radiolabelOffer'>ACHAT + ENTRETIEN</label>
+                            <input type="radio"  id="offerLocation" name="selectedOffer" value="Location" onclick=""><label for="offerLocation" class='radiolabelOffer'>LOCATION</label><br/>
                         </div>
                     </div>
                     <br/>
                     <div class="choice-boxes">
                         <h3> ETAPE 2 - CHOISISSEZ VOS POTS : </h3>
                         <div class="buttonsOffer" style="margin-top: 10px;">
-                            <input type="radio" id="TerreCuite" name="selectedPots" value="TerreCuite" onclick="plantesPriceT()"><label for="TerreCuite" class='radiolabelPots'>TERRE-CUITE ARTISANAUX</label>
-                            <input type="radio" id="Reservoirdeau" name="selectedPots" value="Reservoirdeau" onclick="plantesPriceT()"><label for="Reservoirdeau" class='radiolabelPots'>ÉCOLOGIQUES À RÉSERVOIR D'EAU</label><br/>
+                            <input type="radio" id="TerreCuite" name="selectedPots" value="TerreCuite" onclick=""><label for="TerreCuite" class='radiolabelPots'>TERRE-CUITE ARTISANAUX</label>
+                            <input type="radio" id="Reservoirdeau" name="selectedPots" value="Reservoirdeau" onclick=""><label for="Reservoirdeau" class='radiolabelPots'>ÉCOLOGIQUES À RÉSERVOIR D'EAU</label><br/>
                         </div>
                     </div>
                     </div>
@@ -57,11 +57,11 @@
                             <h5>Baby plant (25-50cm) : </h5>
                             <div class="plantsRow">    
                                 <div class="inputRow"><label for="babyPlanteU">Prix/U:</label><input class="inputUPots" disabled id="babyPlanteU"></div>
-                               <div class="inputRow"><label for="babyPlantePots">Prix Pot:</label><input class="inputUPots" disabled id="babyPlantePots"></div>
+                                <div class="inputRow"><label for="babyPlantePots">Prix Pot:</label><input class="inputUPots" disabled id="babyPlantePots"></div>
                                 <div class="inputRow"><label for="babyPlanteQty">Quantité:</label><div class="quantity buttons_added">
-                                    <input type="button" value="-" class="minus"><input type="number" id="teenagePlanteQty"  step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" oninput="plantesPriceT()"><input type="button" value="+" class="plus">
+                                    <input type="button" value="-" class="minus"><input type="number" id="teenagePlanteQty"  step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" oninput=""><input type="button" value="+" class="plus">
                                     <!-- <button type="button" id="sub" class="sub">-</button><input type="number" class="inputQty" id="babyPlanteQty" value="0" min="0" max="3000" oninput="plantesPriceT()"><button type="button" id="add" class="add">+</button> -->
-                                </div><input type="number" class="inputQty" name="babyPlante" required  minlength="1" maxlength="8" style="display:none;" oninput="plantesPriceT()"></div>
+                                </div><input type="number" class="inputQty" name="babyPlante" minlength="1" maxlength="8" style="display:none;" oninput=""></div>
                             </div>
 
                             <h5> Teenage Plante (50-100cm) : </h5>
@@ -69,7 +69,7 @@
                                 <div class="inputRow"><label for="teenagePlantU">Prix/U:</label><input class="inputUPots" disabled id="teenagePlanteU"></div>
                                 <div class="inputRow"><label for="teenagePlantesPots">Prix Pot:</label><input class="inputUPots" disabled id="teenagePlantePots"></div>
                                 <div class="inputRow"><label for="teenagePlanteQty"> Quantité:</label><div class="quantity buttons_added">
-                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus" oninput="plantesPriceT()">
+                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus" oninput="">
                                     </div> 
                                     <!-- <input type="button" value="-" class="minus"><input type="number" id="teenagePlanteQty" style="display:none;" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" oninput="plantesPriceT()"><input type="button" value="+" class="plus"> -->
                                 </div>
@@ -81,7 +81,7 @@
                                 <div class="inputRow"><label for="plante-tombante">Prix Pot:</label><input class="inputUPots" disabled id="tombantePlantePots"></div>
                                 <div class="inputRow"><label for="tombantePlanteQty">Quantité:</label><div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus" oninput="plantesPriceT()">
-                                </div><input type="number" class="inputQty" id="tombantePlanteQty" name="tombantePlante" style="display:none;" required minlength="1" oninput="plantesPriceT()"></div>
+                                </div><input type="number" class="inputQty" id="tombantePlanteQty" name="tombantePlante" style="display:none;" minlength="1" oninput=""></div>
                             </div>
 
                             <h5> Daddy Plant (100-150cm) : </h5>
@@ -90,7 +90,7 @@
                                 <div class="inputRow"><label for="daddy-plant"> Prix Pot:</label><input class="inputUPots" disabled id="daddyPlantePots"></div>
                                 <div class="inputRow"><label for="daddyPlanteQty">Quantité:</label><div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
-                                </div><input type="number" class="inputQty" id="daddyPlanteQty" name="daddyPlante" style="display:none;" required minlength="1" oninput="plantesPriceT()"></div>
+                                </div><input type="number" class="inputQty" id="daddyPlanteQty" name="daddyPlante" style="display:none;" minlength="1" oninput=""></div>
                             </div>
 
                             <h5>Giant plant (+150cm) :</h5>
@@ -99,7 +99,7 @@
                                 <div class="inputRow"><label for="giant-plant"> Prix Pot:</label><input class="inputUPots" disabled id="giantPlantePots" name="giantPlant"></div>
                                 <div class="inputRow"><label for="giantPlanteQty"> Quantité:</label><div class="quantity buttons_added">
                                     <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
-                                </div><input type="number" class="inputQty" id="giantPlanteQty" name="giantPlant" style="display:none;" required minlength="1" maxlength="8" oninput="plantesPriceT()"></div>
+                                </div><input type="number" class="inputQty" id="giantPlanteQty" name="giantPlant" style="display:none;" minlength="1" maxlength="8" oninput=""></div>
                             </div>
                         </div>
                     </div>
@@ -128,8 +128,7 @@
                         <div id="totalPrice" style="margin-top: 10px;"></div>
                     </div>
             </div>
-        </form>
-        	        <div class="contact-form">
+        <div class="contact-form">
                         <h3> Etape 4 - On se contacte !</h3>
                         <div class="formInputs" style="display: flex; flex-direction:row;">
                             <form id="contactForm">
@@ -139,7 +138,6 @@
                             <br/>
                                 <label for='company'>Nom Entreprise : </label>
                                 <input type="text" class="no-outline" name='company' id="companyName"/>
-                                <button class="button-56" id="submitButton" type="submit" role="button"> Envoyer </button>
                             </div>
                             <br/>
                             <div class="contactColumns">
@@ -149,15 +147,56 @@
                                 <label for='phonenumber'>Téléphone : </label>
                                 <input type="text"  id="phoneNumber" name='phonenumber'/>
                             </div>
-                         </div>
+                            <button class="button-56" id="submitButton" type="submit" role="button">Submit</button>
                         </form>
-                    </div>
-     
-    </div>
+                        </div>
+                </div>
+        </form>
 	</div>
-	    <div id="content"></div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/captvegith/website@f6fc8fa7bf2acefcb1fdb8587602e5e6ab3ab381/formulaire.js" defer></script> -->
+<script>
+        var contactForm = document.getElementById('contactForm'); 
+        var firstName = document.getElementById('firstName');
+        var companyName = document.getElementById('companyName'); 
+        var phoneNumber = document.getElementById('phoneNumber'); 
+        var email = document.getElementById('email'); 
+        var submitButton = document.getElementById('submitButton');
+
+
+function afterSubmit(e) {
+    e.preventDefault(); 
+
+    var infoClient = {
+        name : firstName.value,
+        companyName : companyName.value,
+        telephone : phoneNumber.value,
+        emailAdress : email.value
+    };
+
+    var url = "https://script.google.com/macros/s/AKfycbxfNvhj1owoM-3A6aH6NBYoouVW3wyS3QQRaNlJGezTvYNflrE/exec";
+    
+    fetch(url, {
+        method: 'POST',
+        cache: 'no-cache',
+        mode: 'no-cors',
+        redirect: 'follow',
+        body: JSON.stringify(infoClient)
+    })
+    .then(res => res.json())
+    .then(res => {
+        console.log(res);
+        finalForm.reset();
+    })
+    .catch(err => {
+        console.log(err);
+        contactForm.reset();
+        console.log('something went wrong ....');
+    });
+};
+
+</script>
 </body>
-<script src="https://cdn.jsdelivr.net/gh/captvegith/website@af20fd1f079538974504bd32ee76cc384ae19f61/formulaire/formulaireCV.js"></script>
 <script>
     $('.add').click(function () {
 		if ($(this).prev().val() < 3000) {
@@ -378,28 +417,5 @@ function plantesPriceT() {
     // var pricePlanteTotal = parseInt(babyPlanteT) + parseInt(teenagePlanteT) + parseInt(tombantePlanteT) + parseInt(daddyPlanteT) + parseInt(giantPlanteT);
     // pricePlanteT.value = pricePlanteTotal;
 };
-
-function wcqib_refresh_quantity_increments() {
-    jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
-        var c = jQuery(b);
-        c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
-    })
-}
-String.prototype.getDecimals || (String.prototype.getDecimals = function() {
-    var a = this,
-        b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
-    return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
-}), jQuery(document).ready(function() {
-    wcqib_refresh_quantity_increments()
-}), jQuery(document).on("updated_wc_div", function() {
-    wcqib_refresh_quantity_increments()
-}), jQuery(document).on("click", ".plus, .minus", function() {
-    var a = jQuery(this).closest(".quantity").find(".qty"),
-        b = parseFloat(a.val()),
-        c = parseFloat(a.attr("max")),
-        d = parseFloat(a.attr("min")),
-        e = a.attr("step");
-    b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
-});
-</script> -->
+-->
 </html>

@@ -29,7 +29,7 @@
         giantPlantePriceU["Location"]=12;   
     
 // Choix Offres => prix plantesU
-    $(document).ready(function() {
+    Jquery(document).ready(function($) {
     $('input:radio[name=selectedOffer]').change(function() {
 
 

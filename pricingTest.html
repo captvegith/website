@@ -23,81 +23,8 @@
     
  });
 </script>
-<!-- <script>
-    function SubForm (){
-        $.ajax({
-            url:"https://api.apispreadsheets.com/data/20317/",
-            type:"get",
-            data:$("#myForm").serializeArray(),
-            success: function(){
-                alert("Form Data Submitted :)")
-            },
-            error: function(){
-                alert("There was an error :(")
-            }
-        });
-    }
-</script> -->
-
-<!-- <script>
-fetch("https://api.apispreadsheets.com/data/20317/", {
-	method: "POST",
-	body: JSON.stringify({"data": {"full_name":"","email":"","age":"","message":""}}),
-}).then(res =>{
-	if (res.status === 201){
-		// SUCCESS
-        console.log("bravo");
-	}
-	else{
-		// ERROR
-        console.log('dommage');
-	}
-})
-  
-</script>  -->
-<!-- 
-<script>
-fetch("https://api.apispreadsheets.com/data/20310/", {
-	method: "POST",
-	body: JSON.stringify({"data": {"full_name":"value","email":"value","age":"value","message":"value"}, "query": "select*from20305wherefull_name='value'"}),
-}).then(res =>{
-	if (res.status === 201){
-		// SUCCESS
-	}
-	else{
-		// ERROR
-	}
-})
-
-</script> -->
 
 </head>
-
-<!-- <div>
-    <form id="myForm">
-        <label>Full Name</label>
-        <br/>
-        <input name="full_name" />
-        <br/>
-        <label>Email</label>
-        <br/>
-        <input name="email" />
-        <br/>
-        <label>Age</label>
-        <br/>
-        <input type="radio" style="visibility:visible" id="age" name="age" value="18-35" /> 18-35<br/>
-        <input type="radio" style="visibility:visible" id="age" name="age" value="35+" /> 35+<br/>
-        <br/>
-        <label>Message</label>
-        <br/>
-        <textarea name="message">
-        </textarea>
-        <br/>
-        <br/>
-        <button onclick="SubForm()">Submit</button>
-      </form>
-</div>  -->
-
 <body>
     <div id="wrap">
         <!--id du formulaire  = pricingPlantes-->

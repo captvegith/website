@@ -129,19 +129,8 @@
     });
 
 
-// cout rempotage par mois 
-       function costRempotage() {
-        var nombreOfPlantes = numberOfPlantes(); 
-        var coutRempotage = 0; 
-        if(document.getElementById('offerAchatEntretien').checked || (document.getElementById('offerLocation').checked)) {
-            coutRempotage = nombreOfPlantes + 30; 
-        }; 
-        return coutRempotage; 
-    }
-    document.getElementById('coutRempotage').value = costRempotage(); 
-});
 
-/// GOOOOOD ---> Nombre de plantes détermine Cout entretien / Cout Location / Cout rempotage 
+/// OK en local ---> Nombre de plantes détermine Cout entretien / Cout Location / Cout rempotage 
 function numberOfPlantes(){
     var arrayOfQuantity = document.getElementsByName('quantity');
     var qtyOfPlantes = 0; 
